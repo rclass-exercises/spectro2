@@ -9,13 +9,10 @@ output:
         highlight      : tango
         number_sections: false
         code_download  : false
-params: 
-    solution:
-        value: false
 ---
 
 
-We will now work with Raman spectroscopy data from the luminescence of a ruby particle under high pressure: `Ddata/rubis_xx.txt`. 
+We will now work with Raman spectroscopy data from the luminescence of a ruby particle under high pressure: `Data/rubis_xx.txt`. 
 This measurement is performed in a diamond anvil cell with a laser of wavelength $\lambda_L$=568.189 nm, and the pressure is known by calibrating the frequency of a diamond line. 
 
 The ruby luminescence contains two lines, and we want to use the position of the R1 line, which is the most intense and has the highest energy, to determine the pressure. We therefore need to determine the parameters $A$ and $B$ of the equation of state linking wavelength (in nm) and pressure (in GPa):
