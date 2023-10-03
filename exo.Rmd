@@ -75,9 +75,7 @@ Another version of this that does not use a for loop would be like so (try to un
 
 ```{r include=TRUE, warning = FALSE, message=FALSE, cache=FALSE}
 # spec <- tibble(name=flist) %>% 
-#     mutate(data=map(name, ~read_table(file.path("Data",.), 
-#                                       col_names = c("w","int")))
-#           ) %>% 
+#     mutate(data=map(name, ~read_table( file.path("Data",.), col_names = c("w","int"))) ) %>% 
 #     unnest(data)
 ```
 
