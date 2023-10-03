@@ -74,7 +74,11 @@ Initialize an empty tibble called `spec` that will store all spectra:
 Another version of this that does not use a for loop would be like so (try to understand what's happening in this code by running each line one after the other and looking at the help on the functions used):
 
 ```{r include=TRUE, warning = FALSE, message=FALSE, cache=FALSE}
-
+# spec <- tibble(name=flist) %>% 
+#     mutate(data=map(name, ~read_table(file.path("Data",.), 
+#                                       col_names = c("w","int")))
+#           ) %>% 
+#     unnest(data)
 ```
 
 ----------
