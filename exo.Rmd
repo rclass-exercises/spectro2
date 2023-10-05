@@ -23,7 +23,7 @@ $$
 where $\lambda_0$ = 694.24 nm is the wavelength of the R1 line at zero pressure, and $\lambda$ is the wavelength of the R1 line at $P$ pressure. 
 For a given line, the relationship between its measured Raman shift, $\omega$, and its wavelength is given by $\lambda = \frac{10^7}{\omega_L - \omega}$, with $\omega_L= \frac{10^7}{\lambda_L}$ the frequency of the probe laser.
 
-Open one of the files, for example [Data/rubis_1.txt](Data/rubis_1.txt) to see its structure - they're all the same. They are made up of two columns, which are the Raman shifts in cm^-1^ and the intensities. The nomenclature of the files `"Data/rubis_xx.txt"` is such that `xx` is the pressure in GPa.
+Open one of the files, for example [Data/rubis_01.txt](Data/rubis_01.txt) to see its structure - they're all the same. They are made up of two columns, which are the Raman shifts in cm^-1^ and the intensities. The nomenclature of the files `"Data/rubis_xx.txt"` is such that `xx` is the pressure in GPa.
 
 > First, consider the steps involved in determining the parameters $A$ and $B$ of the equation of state. 
 > 
